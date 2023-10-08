@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Nós</title>
+  </head>
+
+  <body>
+    <header
+      class="flex md:justify-between justify-center items-center bg-[#008F8C] p-5 md:px-48 w-full"
+    >
+      <a href="index.html"><img class="md:ml-0 mr-10 w-10" src="images/gota.png" alt="Gota" /></a>
+      <nav class="flex gap-16 font-bold text-white">
+        <ul class="flex gap-10">
+          <li><a href="index.html">Voltar para a lading page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="flex flex-col items-center mt-10 font-bold text-[#015958] justify-center text-center">
+        <h5>O aplicativo está em desenvolvimento estará disponível para instalação :(
+            <span class="block">Mas fica um abraço do time LoremBloom!</span></h5>
+        <img class="md:w-[60vw] md:h-[60vh]" src="images/photous.jpg" alt="">
+    </main>
+  </body>
+</html>
